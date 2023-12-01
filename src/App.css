@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  font-family: Eurostile, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.image-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
