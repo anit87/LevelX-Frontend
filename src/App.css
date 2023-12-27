@@ -1,6 +1,6 @@
 #root {
-  max-width: 1280px;
   font-family: Eurostile, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: 'white';
 }
 
 .background-image {
@@ -20,6 +20,42 @@
   transform: translate(-50%, -50%);
 }
 
+.second-section {
+  position: absolute;
+  top: 40%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+
+/* .left-container {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.right-container {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+} */
+
+.combined-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.left-container,
+.right-container {
+  width: 25%;
+}
+
 .text {
   color: white;
   font-size: 24px;
@@ -28,4 +64,3 @@
   top: 10%;
   transform: translate(-50%, -50%);
 }
-
